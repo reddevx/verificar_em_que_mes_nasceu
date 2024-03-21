@@ -2,6 +2,7 @@ puts "Enter the number of the month in which you were born; "
 
 month = gets.chomp.to_i
 
+
 case month 
  when 1..3
     puts "you were born at the beginning of the year."
